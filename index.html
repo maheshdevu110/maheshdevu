@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahesh's Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="https://res.cloudinary.com/dmw5kp4tr/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1705644685/profile_pic_s0zfbv.jpg"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="https://res.cloudinary.com/dmw5kp4tr/image/upload/v1716029686/bibd5tzs5avyp76yfbox.png"
+              alt="Mahesh Devu"
+              width="100"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Mahesh Devu">Mahesh Devu</h1>
+
+            <p class="title">Full-Stack developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:maheshdevu03@gmail.com" class="contact-link"
+                  >maheshdevu03@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:1234567890" class="contact-link">+91 1234567890</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="#">Nov 17</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>R.C.Puram, A.P, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/mahesh-devu-684b40252/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://x.com/Maheshdevu6" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/the_mahesh_13/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/maheshdevu110" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Heyyyyy there!🔗💻<br />
+              -I'm Mahesh, a versatile tech enthusiast with a strong commitment
+              to knowledge sharing and innovation. where I focus on coding, MERN
+              Stack development, and engaging in in-depth discussions about the
+              ever-evolving tech landscape. My genuine love for AI adds an extra
+              layer of excitement to my tech journey.
+            </p>
+
+            <p>
+              -I'm always eager to connect with fellow tech enthusiasts,
+              creators, and professionals who share my passion for technology,
+              learning, and growth. Let's connect and explore the limitless
+              possibilities the tech world has to offer. Together, we can
+              inspire, innovate, and make a lasting impact.
+            </p>
+
+            <p>
+              -At NXT Wave's CCBP 4.0 Academy, I’m currently learning full-stack
+              development with a specialization in 4.0 technologies. In love
+              with the coding challenges and hands-on projects. With Industry’s
+              first ever IRC 4.0, getting ready to take on new challenges in the
+              tech world.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://cdn-icons-png.freepik.com/256/5519/5519517.png?uid=R135913731&ga=GA1.1.1786780336.1716371685"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Python</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality Programming language made
+                    at a professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://cdn-icons-png.freepik.com/256/6456/6456104.png?uid=R135913731&ga=GA1.1.1786780336.1716371685"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://cdn-icons-png.freepik.com/256/6163/6163781.png?uid=R135913731&ga=GA1.1.1786780336.1716371685"
+                    alt="Data Science"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Science</h4>
+
+                  <p class="service-item-text">
+                    Things get done only if the data we gather can inform and
+                    inspire those in a position to make a difference
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://cdn-icons-png.freepik.com/256/4202/4202163.png?uid=R135913731&ga=GA1.1.1786780336.1716371685"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Machine learning</h4>
+
+                  <p class="service-item-text">
+                    This technology allows us to collect or produce data output
+                    from experience.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Certifications</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://media.licdn.com/dms/image/C560BAQER_QnUTXrPJw/company-logo_100_100/0/1670264051233/amazon_web_services_logo?e=1728518400&v=beta&t=Cnec1OUO0W-JxJ8zQN5ZL3N1mnXPMJESfL3FlTnzvMY"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                  Amazon Web Services 
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <img src="https://cdn1.ccbp.in/misc/aws-workshop-part-1-completion-certificate/2DGE0WAM1T.png"
+                      alt="certificate" width="250"  class="certificate-img"/>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_100_100/0/1648218852378?e=1728518400&v=beta&t=pEQ63p4yPPA_nOwr1MIRMHb3RhDoTH9zgNogdq-CXb8"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                  JavaScript Essentials
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <img src="https://media-content.ccbp.in/certificates/share/ENYIABJJLK.png"
+                      alt="certificate" width="250"  class="certificate-img"/>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://media.licdn.com/dms/image/C4E0BAQH-dWvPV4XG2A/company-logo_100_100/0/1631316304817?e=1728518400&v=beta&t=2mJdaqQmU7Ni-fMAnJA47Uqy7DqF-OWg9hqGOSp_SL0"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <a href="https://res.cloudinary.com/dmw5kp4tr/image/upload/v1720448877/Screenshot_2024-07-08_195731_q9eanw.png">
+                    <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                  Project Internship <br/>
+                  - Vizag Steel Plant <br/>(WRM-1)
+                  </h4>
+                  </a>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <img src="https://res.cloudinary.com/dmw5kp4tr/image/upload/v1720448877/Screenshot_2024-07-08_195731_q9eanw.png"
+                      alt="certificate" width="200"  class="certificate-img-1"/>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_100_100/0/1648218852378?e=1728518400&v=beta&t=pEQ63p4yPPA_nOwr1MIRMHb3RhDoTH9zgNogdq-CXb8"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                  Programming with Python 
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <img src="https://media-content.ccbp.in/certificates/share/IRZUAYHIZP.png"
+                      alt="certificate" width="250"  class="certificate-img"/>
+                  </div>
+                </div>
+              </li>
+
+              
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+        
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  JNTU Gurajada Vizianagaram
+                </h4>
+
+                <span>2021 — 2025</span>
+
+                <p class="timeline-text">
+                  I am pursuing my bachelor's in Metallurgical Engineering at
+                  the University of College of Engineering ,Vizianagaram.
+                  <br />• Leadership: As a Class Representative, I actively
+                  foster a collaborative and supportive environment for my
+                  peers, amplifying their voices and addressing their needs. My
+                  dedication to personal and professional growth, coupled with
+                  my ability to effectively communicate and guide others, has
+                  enabled me to make a positive impact on those around me.<br />
+                  • GDSC Core team member: I am proud to be a core team member
+                  of the Google Developer Student Clubs in my college, where I
+                  engage with fellow students in exciting coding projects and
+                  initiatives. Leveraging my strong coding skills, I have been
+                  instrumental in helping numerous friends and juniors kickstart
+                  their coding journeys.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">NxtWave</h4>
+
+                <span>2022 — 2025</span>
+
+                <p class="timeline-text">
+                  At NxtWave, I honed my skills in web development, specializing
+                  in the MERN (MongoDB, Express.js, React.js, Node.js) stack,
+                  DSA and currently learning Machine Learning. <br />• MERN
+                  Stack Development: With hands-on experience in building over
+                  50 websites, I have a strong foundation in creating dynamic
+                  and user-friendly web applications. My proficiency in
+                  front-end development was recognized when I secured the first
+                  prize in the Fractured Pixels event during the Inspiron 22.0
+                  fest, where I showcased my ability to design captivating and
+                  functional user interfaces. <br />• Machine Learning:
+                  Currently, I am undergoing training in Machine Learning (ML)
+                  to further expand my knowledge and skills. I am enthusiastic
+                  about the potential of ML in data analysis, predictive
+                  modeling, and artificial intelligence. By staying up-to-date
+                  with the latest advancements in ML, I am preparing myself to
+                  contribute to cutting-edge developments in the field.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  G.R.C Modern Jnr College , RamachandraPuram
+                </h4>
+
+                <span>2019 — 2021</span>
+
+                <p class="timeline-text">
+                  I completed my Intermediate from G.R.C Modern Jnr
+                  College,RamachandraPuram
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Data science and machine learning Intern
+                </h4>
+
+                <span>2024(June) — Present</span>
+
+                <p class="timeline-text">
+                  BRAINOVISION SOLUTIONS INDIA PVT.LTD
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Project Analysis Intern</h4>
+
+                <span>2024(May) — 2024(June)</span>
+
+                <p class="timeline-text">
+                  VISAKHAPATNAM STEEL PLANT<br />
+                  WRM 1 department QATD Technical trainee
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Data analysis Intern</h4>
+
+                <span>Nov(2023) — Dec(2024)</span>
+
+                <p class="timeline-text">Cognifyz Technologies</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Python Developer Intern</h4>
+
+                <span>Jun 2023 - Jul 2023</span>
+
+                <p class="timeline-text">CodeClause</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web development</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MS-360</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Science & Machine Learning</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Java Script</h5>
+                    <data value="60">60%</data>
+                  </div>
+  
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 60%"></div>
+                  </div>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">DBMS (Sql)</h5>
+                    <data value="70">70%</data>
+                  </div>
+  
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 70%"></div>
+                  </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+           <h1 class="h2 project-tit">Projects</h1>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://thefood17.ccbp.tech/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://res.cloudinary.com/dkuriblkh/image/upload/v1720720482/Screenshot_2024-07-11_231126_kkjmmq.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Food Munch Website</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+              class="project-item active"
+              data-filter-item
+              data-category="web development"
+            >
+              <a href="https://tourismweb17.ccbp.tech/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="https://res.cloudinary.com/dkuriblkh/image/upload/v1720720478/Screenshot_2024-07-11_230147_zvc0g4.png"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">Tourism Website</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+            <li
+            class="project-item active"
+            data-filter-item
+            data-category="web development"
+          >
+            <a href="https://todoproject17.ccbp.tech/">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="https://res.cloudinary.com/dkuriblkh/image/upload/v1720720473/Screenshot_2024-07-11_230056_ad6mvs.png"
+                  alt="finance"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Todo List</h3>
+
+              <p class="project-category">Web Development</p>
+            </a>
+          </li>
+
+
+          <li
+          class="project-item active"
+          data-filter-item
+          data-category="web development"
+        >
+          <a href="https://mygenai17.ccbp.tech/">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img
+                src="https://res.cloudinary.com/dkuriblkh/image/upload/v1720721226/Screenshot_2024-07-11_233649_g9ftlc.png"
+                alt="finance"
+                loading="lazy"
+              />
+            </figure>
+
+            <h3 class="project-title">Gen AI</h3>
+
+            <p class="project-category">Artificial Intelligence</p>
+          </a>
+        </li>
+
+        <li
+        class="project-item active"
+        data-filter-item
+        data-category="web development"
+      >
+        <a href="https://wikiglobesearch.ccbp.tech/">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img
+              src="https://res.cloudinary.com/dkuriblkh/image/upload/v1720720474/Screenshot_2024-07-11_230225_a0wycz.png"
+              alt="finance"
+              loading="lazy"
+            />
+          </figure>
+
+          <h3 class="project-title">Self- Search</h3>
+
+          <p class="project-category">Web development</p>
+        </a>
+      </li>    
+
+      <li
+      class="project-item active"
+      data-filter-item
+      data-category="web development"
+    >
+      <a href="https://devumahesh03.ccbp.tech/">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img
+            src="https://res.cloudinary.com/dkuriblkh/image/upload/v1720720477/Screenshot_2024-07-11_231333_vwahey.png"
+            alt="finance"
+            loading="lazy"
+          />
+        </figure>
+
+        <h3 class="project-title">Personal Portifolio</h3>
+
+        <p class="project-category">Web development & Js Advance</p>
+      </a>
+    </li>
+    
+    <li
+      class="project-item active"
+      data-filter-item
+      data-category="web development"
+    >
+      <a href="https://github.com/maheshdevu110/codeclause-flappy-bird-game">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img
+            src="https://res.cloudinary.com/dkuriblkh/image/upload/v1720720478/Screenshot_2024-07-11_232144_boljv7.png"
+            alt="finance"
+            loading="lazy"
+          />
+        </figure>
+
+        <h3 class="project-title">Flappy Bird Game</h3>
+
+        <p class="project-category">Python Development</p>
+      </a>
+    </li>
+
+    <li
+    class="project-item active"
+    data-filter-item
+    data-category="web development"
+  >
+    <a href="https://www.linkedin.com/posts/mahesh-devu-jntu10_dataanalytics-nxtwaveteam-nxtwave-activity-7157682613988581376-q5Oj?utm_source=share&utm_medium=member_desktop">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+
+        <img
+          src="https://res.cloudinary.com/dkuriblkh/image/upload/v1720720479/Screenshot_2024-07-11_232220_wkqavj.png"
+          alt="finance"
+          loading="lazy"
+        />
+      </figure>
+
+      <h3 class="project-title">Data Analysis</h3>
+
+      <p class="project-category">Data Science</p>
+    </a>
+  </li>
+
+  <li
+  class="project-item active"
+  data-filter-item
+  data-category="web development"
+>
+  <a href="https://www.linkedin.com/posts/mahesh-devu-jntu10_task-1-activity-7151927757440978945-Iyf-?utm_source=share&utm_medium=member_desktop">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img
+        src="https://res.cloudinary.com/dkuriblkh/image/upload/v1720722649/Screenshot_2024-07-12_000026_ufutfm.png"
+        alt="finance"
+        loading="lazy"
+      />
+    </figure>
+
+    <h3 class="project-title">Data Exploration and Summary</h3>
+
+    <p class="project-category">Power BI</p>
+  </a>
+</li>
+           
+           
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="https://cdn1.ccbp.in/misc/career-in-ai/RX4RJ1CQ6O.png"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Podcast</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Jan 09, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Building a Career in AI
+                    </h3>
+
+                    <p class="blog-text">
+                      Attending the Masterclass by "Mr Ankur Debnath" ,Senior Data Scientist at S&P Global
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="https://cdn1.ccbp.in/certificates/share/UXM5WTOGOI.png"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Podcast</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">July 07, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Project Management 101
+                    </h3>
+
+                    <p class="blog-text">
+                      Attending the Masterclass by "Mr Vinay Nandina", Project Manager at Microsoft
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="https://cdn1.ccbp.in/misc/Academy-Exclusive-Sessions/ROOHJGGL2T.png"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Podcast</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Aug 16, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Data Science 101</h3>
+
+                    <p class="blog-text">
+                     Attending the Masterclass by "Mr Kathikeya Racharla", Senior Data Scientist at PayPal
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="https://cdn1.ccbp.in/misc/Academy-Exclusive-Sessions/M3TKG1ZWYN.png"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Podcast</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Jun 20, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      AI/ML Stories from Samsung's Headquarters
+                    </h3>
+
+                    <p class="blog-text">
+                      Attending the Masterclass by "Mr Sriram Varun", Ex-Product Manager,Samsung HQ, South Korean
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="https://cdn1.ccbp.in/misc/april-code-challenge/I1CBUZRFBF.png"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Coading Challenge</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">May 10, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                     April Code Challenge
+                    </h3>
+
+                    <p class="blog-text">
+                      Conquered the April Code Challenge With a Stellar score of 7500!
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="https://cdn1.ccbp.in/misc/Academy-Exclusive-Sessions/YMDJE1HK0D.png"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Master Class</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Dec 25, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">The Data Science Time Machine</h3>
+
+                    <p class="blog-text">
+                     The participating in the Master Class by Ms.Shayama Dorbala,Machine Learning Engineer at LiftOff Mobiles, USA
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122110.5593951045!2d82.16483069122296!3d16.97676460250407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3827ddaf59b4f7%3A0x92f8ddb9c89a4803!2sKakinada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1720371786610!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
